@@ -1,3 +1,3 @@
-import { Tilt_Neon } from '@next/font/google'
+import { Tilt_Neon } from 'next/font/google'
 
-export const tiltNeon = Tilt_Neon({ subsets: ['latin'] })
+export const tiltNeon = Tilt_Neon({ subsets: ['latin'], display: 'swap' })
