@@ -31,7 +31,7 @@ const GameIcon = ({imageURL, gameTitle, gameURL}: {
 
 export default function Home() {
   return (
-    <div className={styles.home}>
+    <Layout>
         <h1>Games</h1>
         <div className={styles.gameGrid}>
             {/* <GameIcon
@@ -47,19 +47,19 @@ export default function Home() {
             <GameIcon
                 imageURL={nonogramImg.src}
                 gameTitle='Nonogram'
-                gameURL='#'
+                gameURL='./nonogram'
             />
             <GameIcon
                 imageURL={sudokuImg.src}
                 gameTitle='Sudoku'
-                gameURL='#'
+                gameURL='./sudoku'
             />
             <GameIcon
                 imageURL={minesweeperImg.src}
                 gameTitle='Minesweeper'
-                gameURL='#'
+                gameURL='./minesweeper'
             />
         </div>
-    </div>
+    </Layout>
   )
 }

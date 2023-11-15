@@ -1,0 +1,26 @@
+
+.game {
+    background-color: aquamarine;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+    background-color: bisque;
+    aspect-ratio: 1 / 1;
+    width: 50%;
+    display: grid;
+    grid-template: repeat(9, 1fr) / repeat(9, 1fr);
+}
+
+.square {
+    /* aspect-ratio: 1 / 1; */
+    background-color: brown;
+    border: 1px black solid;
+}
+/* 
+.row {
+    display: flex;
+    flex-direction: column;
+} */

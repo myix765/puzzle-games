@@ -1,9 +1,3 @@
-.home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
 
 .gameGrid {
     display: grid;
